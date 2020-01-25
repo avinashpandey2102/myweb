@@ -238,7 +238,7 @@ h3 {
   background-color: #0b131d;
 }
 
-@media (min-width:100px) and (max-width:900px) {
+@media screen and (max-width: 479px) {
 #experience, #education, #aboutme {
   font-size: 130%;
 }
