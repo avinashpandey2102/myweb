@@ -238,7 +238,7 @@ h3 {
   background-color: #0b131d;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
 #experience, #education, #aboutme {
   font-size: 130%;
 }
@@ -334,12 +334,4 @@ h3 {
     padding: 3%;
   }
 
-  @media (min-width:900px) and (max-width:1020px) {
-
-    /* Experience */
-    .flip-card {
-      align-items: center;
-      background-color: transparent;
-      width: 300px;
-      height: 500px;
-    }
+  
