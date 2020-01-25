@@ -1,0 +1,340 @@
+/* Copied */
+body {
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-image: radial-gradient(#2d4059, #000000, #000000);
+  color: #fff;
+}
+
+.heading-text {
+  color: #268bef;
+}
+
+.Heading {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.title-image {
+  padding-left: 25%;
+  padding-right: 20%;
+}
+
+body {
+  font-family: 'Montserrat', Ubuntu;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: 900;
+}
+
+/* navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  margin-left: 50px;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download buttons */
+.head-btn {
+  margin: 2% 3% 0% 0;
+  background-color: #0b131d;
+  border-radius: 14px;
+}
+
+.head-fas {
+  padding-top: 4%
+}
+
+/* Skills */
+#skills {
+  background-color: #0b131d;
+  margin: 0 2%;
+  border-radius: 14px;
+  padding: 1% 5%;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.fas, .fab {
+  border-radius: 100%;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover, .fab:hover {
+  color: #ff4c68
+}
+
+.feature-box {
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+
+/* Experience */
+#experience {
+  text-align: center;
+  padding: 1% 2% 2% 0;
+  margin: 0 1% 1% 2%;
+  background-color: #000000;
+  font-family: "Montserrat";
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 570px;
+  height: 350px;
+  perspective: 1020px;
+  border-radius: 14px;
+  padding-bottom: 1%
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  text-align: center;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  padding: 5% 15% 5% 5%;
+}
+
+.flip-card-front {
+  text-align: left;
+  background-color: #bbb;
+  color: black;
+  border-radius: 14px;
+}
+
+.flip-card-back {
+  text-align: left;
+  background-color: #0b131d;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 14px;
+  z-index: 2;
+}
+
+/* Education */
+#education {
+  padding-top: 2%;
+  text-align: center;
+  background-color: #0b131d;
+  margin: 0 2%;
+  border-radius: 14px;
+}
+
+.container-fluid-edu {
+  padding: 2% 9% 1% 9%;
+}
+
+.edu-table {
+  text-align: left;
+  padding-top: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.horizontal-timeline {
+  margin-right: 10%;
+  margin-left: 10%;
+  position: relative;
+  height: 10px;
+  border-style: none;
+  border-color: #fff;
+  border-top-style: dotted;
+}
+
+.arrow-up, .arrow-down {
+  position: relative;
+}
+
+.arrow-down {
+  bottom: -20px;
+  width: 50px;
+  height: 50px;
+  background: #ff4c68;
+  border-radius: 50px;
+  position: absolute;
+  border: 4px solid #fff;
+  cursor: pointer;
+}
+
+/* about me */
+#aboutme {
+  background: #000000;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.chip-col {
+  padding: 5px 15px 35px 25px;
+  align-content: center;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 80px;
+  width: 350px;
+  font-size: 16px;
+  line-height: 35px;
+  border-radius: 35px;
+  background-color: #0b131d;
+}
+
+.chip-img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* Footer */
+#footer {
+  padding: 1% 20% 0.5% 20%;
+  background-color: #0b131d;
+}
+
+@media (min-width:100px) and (max-width:900px) {
+
+  /* Head */
+  #title{
+    padding-bottom: 2%;
+  }
+  .title-image {
+    height: 100%;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%
+  }
+
+  .head-btn {
+    margin: 1px;
+    padding: 1%;
+    width: 40%;
+  }
+
+  .Heading {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.5;
+    padding-left: 20%;
+    padding-top: 1%;
+  }
+
+  .feature-box {
+    padding: 2%;
+    margin: 0%
+  }
+
+  /* Experience */
+  .flip-card {
+    align-items: center;
+    background-color: transparent;
+    width: 500px;
+    height: 390px;
+  }
+
+  /* education */
+  #education {
+    padding-top: 0%;
+    text-align: center;
+    background-color: #0b131d;
+    margin: 0 1%;
+    border-radius: 14px;
+  }
+
+  .container-fluid-edu {
+    padding: 1% 1% 1% 1%;
+  }
+
+  .edu-table {
+    text-align: left;
+    padding-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .horizontal-timeline {
+    margin-right: 1%;
+    margin-left: 1%;
+    position: relative;
+    height: 10px;
+    border-style: none;
+    border-color: #fff;
+    border-top-style: dotted;
+  }
+
+  .arrow-up, .arrow-down {
+    position: relative;
+  }
+
+  .arrow-down {
+    bottom: -20px;
+    width: 50px;
+    height: 50px;
+    background: #ff4c68;
+    border-radius: 50px;
+    position: absolute;
+    border: 4px solid #fff;
+    cursor: pointer;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 3%;
+  }
+
+  @media (min-width:900px) and (max-width:1020px) {
+
+    /* Experience */
+    .flip-card {
+      align-items: center;
+      background-color: transparent;
+      width: 300px;
+      height: 500px;
+    }
