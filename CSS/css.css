@@ -239,32 +239,37 @@ h3 {
 }
 
 @media (min-width:100px) and (max-width:900px) {
+#experience, #education, #aboutme {
+  font-size: 130%;
+}
 
-  /* Head */
-  #title{
-    padding-bottom: 2%;
-  }
-  .title-image {
-    height: 100%;
-    width: 100%;
-    padding-left: 1%;
-    padding-right: 1%
-  }
+/* Head */
+#title {
+  padding-bottom: 2%;
+}
 
-  .head-btn {
-    margin: 1px;
-    padding: 1%;
-    width: 40%;
-  }
+.title-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%
+}
 
-  .Heading {
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 0.5;
-    padding-left: 20%;
-    padding-top: 1%;
-  }
+.head-btn {
+  margin: 1px;
+  padding: 1%;
+  width: 40%;
+}
+
+.Heading {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 0.5;
+  padding-left: 10%;
+  padding-top: 1%;
+}
 
   .feature-box {
     padding: 2%;
