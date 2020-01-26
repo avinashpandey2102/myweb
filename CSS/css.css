@@ -10,7 +10,7 @@ body {
 }
 
 .heading-text {
-  color: #268bef;
+  color: #142CE2;
 }
 
 .Heading {
@@ -19,6 +19,7 @@ body {
 }
 
 .title-image {
+
   padding-left: 25%;
   padding-right: 20%;
 }
@@ -28,8 +29,9 @@ body {
 }
 
 h1 {
+  color: #C7D9FC;
   font-family: "Montserrat";
-  font-weight: 900;
+  font-weight: 400;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -51,9 +53,10 @@ h3 {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  margin-left: 50px;
-  font-size: 2.5rem;
+  color: #142CE2;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 5%;
+  font-size: 3.3rem;
 }
 
 .navbar-item {
@@ -75,7 +78,8 @@ h3 {
 
 /* Skills */
 #skills {
-  background-color: #0b131d;
+  background-image: radial-gradient(#0b131d, #0b131d, #000000);
+
   margin: 0 2%;
   border-radius: 14px;
   padding: 1% 5%;
@@ -85,12 +89,12 @@ h3 {
 
 .fas, .fab {
   border-radius: 100%;
-  color: #ef8172;
+  color: #495BEB;
   margin-bottom: 1rem;
 }
 
 .fas:hover, .fab:hover {
-  color: #ff4c68
+  color: #313D9E;
 }
 
 .feature-box {
@@ -100,13 +104,15 @@ h3 {
 
 /* Experience */
 #experience {
+  background-image: radial-gradient(#0F1B2A, #000000, #000000);
   text-align: center;
-  padding: 1% 2% 2% 0;
+  padding: 2% 2% 2% 0;
   margin: 0 1% 1% 2%;
-  background-color: #000000;
   font-family: "Montserrat";
 }
-
+.experience-head{
+  margin:  7% 2%;
+}
 .flip-card {
   background-color: transparent;
   width: 570px;
@@ -136,10 +142,11 @@ h3 {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  padding: 5% 15% 5% 5%;
+  padding: 7% 15% 5% 5%;
 }
 
 .flip-card-front {
+
   padding-top: 10%;
   text-align: left;
   background-color: #3282b8;
@@ -161,16 +168,16 @@ h3 {
 
 /* Education */
 #education {
+  background-image: radial-gradient(#0b131d, #0b131d, #000000);
   padding-top: 2%;
   text-align: center;
-  background-color: #0b131d;
-  margin: 0 2%;
   color: #fff;
+  margin: 0 2%;
   border-radius: 14px;
 }
 
 .container-fluid-edu {
-  padding: 2% 9% 1% 9%;
+  padding: 5% 9% 1% 9%;
 }
 
 .edu-table {
@@ -187,7 +194,7 @@ h3 {
   height: 10px;
   border-style: none;
   border-color: #fff;
-  border-top-style: dotted;
+  border-top-style:dashed;
 }
 
 .arrow-up, .arrow-down {
@@ -198,7 +205,7 @@ h3 {
   bottom: -20px;
   width: 50px;
   height: 50px;
-  background: #ff4c68;
+  background: #142CE2;
   border-radius: 50px;
   position: absolute;
   border: 4px solid #fff;
@@ -212,7 +219,9 @@ h3 {
   text-align: center;
   padding: 5%;
 }
-
+.aboutme-para{
+  padding-top: 5%
+}
 .chip-col {
   padding: 5px 15px 35px 25px;
   align-content: center;
@@ -248,14 +257,11 @@ h3 {
   font-size: 130%;
 }
 
-/* Head */
-#title {
-  padding-bottom: 2%;
-}
+
 
 /* Head */
 #title {
-  padding-bottom: 2%;
+  padding-bottom: 0%;
 }
 
 .title-image {
@@ -263,7 +269,7 @@ h3 {
   height: 100%;
   width: 100%;
   padding-left: 10%;
-  padding-right: 2%
+  padding-right: 2%;
 }
 
 .head-btn {
@@ -271,7 +277,9 @@ h3 {
   padding: 1%;
   width: 40%;
 }
-
+.head-buttons{
+  padding-bottom: 3%;
+}
 .Heading {
   font-family: "Montserrat";
   font-weight: 400;
@@ -279,12 +287,6 @@ h3 {
   line-height: 0.5px;
   padding-left: 5%;
   padding-top: 1%;
-}
-
-.head-btn {
-  margin: 1px;
-  padding: 1%;
-  width: 40%;
 }
 
 .Heading {
@@ -302,6 +304,9 @@ h3 {
   }
 
   /* Experience */
+  .experience-head{
+    margin:  7% 2%;
+  }
   .flip-card {
     align-items: center;
     padding-left: 4%;
@@ -322,7 +327,7 @@ h3 {
 
   /* education */
   #education {
-    padding-top: 0%;
+    padding-top: 2%;
     text-align: center;
     background-color: #0b131d;
     margin: 0 1%;
@@ -330,7 +335,7 @@ h3 {
   }
 
   .container-fluid-edu {
-    padding: 1% 1% 1% 1%;
+    padding: 5% 1% 1% 2%;
   }
 
   .edu-table {
@@ -358,7 +363,7 @@ h3 {
     bottom: -20px;
     width: 50px;
     height: 50px;
-    background: #ff4c68;
+    background: #142CE2;
     border-radius: 50px;
     position: absolute;
     border: 4px solid #fff;
