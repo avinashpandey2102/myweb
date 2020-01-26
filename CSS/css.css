@@ -279,13 +279,12 @@ h3 {
 
   .head-btn {
     margin: 1px 2px;
-    font-size: 2rem;
-    padding: 2%;
+    font-size: 1.5rem;
+    padding: 2% 5%;
   }
 
   .head-buttons {
-    padding: 2% 5% 2% 10%;
-    padding-left: ;
+    padding: 1% 5% 1% 10%;
   }
 
   .Heading {
