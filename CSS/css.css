@@ -57,9 +57,14 @@ h3 {
   font-size: 4rem;
 }
 
+.navbar-brand:hover {
+  color: #142CE2;
+}
+
 .navbar-item {
-  padding: 0 18px;
-  font-size: 1.2rem;
+  color: #eeeeee;
+  padding: 0 15px;
+  font-size: 1.5rem;
   font-family: "Montserrat-light"
 }
 
@@ -221,6 +226,7 @@ h3 {
   color: white;
   text-align: center;
   padding: 5%;
+  font-size: 2rem;
 }
 
 .aboutme-para {
@@ -228,14 +234,14 @@ h3 {
 }
 
 .chip-col {
-  padding: 5px 15px 35px 25px;
+  padding: 5px 15px 46px 25px;
   align-content: center;
 }
 
 .chip {
   display: inline-block;
-  padding: 0 25px;
-  height: 80px;
+  padding: 2px 25px 2px 25px;
+  height: 79px;
   width: 350px;
   font-size: 16px;
   line-height: 35px;
@@ -245,10 +251,15 @@ h3 {
 
 .chip-img {
   float: left;
-  margin: 0 10px 0 -25px;
+  margin: 0 10px 0px -25px;
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+
+.chip-img:hover {
+  height: 90px;
+  width: 90px;
 }
 
 /* Footer */
