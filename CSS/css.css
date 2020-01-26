@@ -248,12 +248,36 @@ h3 {
   padding-bottom: 2%;
 }
 
+#experience, #education, #aboutme {
+  font-size: 130%;
+}
+
+/* Head */
+#title {
+  padding-bottom: 2%;
+}
+
 .title-image {
   position: relative;
   height: 100%;
   width: 100%;
-  padding-left: 1%;
+  padding-left: 3%;
   padding-right: 1%
+}
+
+.head-btn {
+  margin: 1px;
+  padding: 1%;
+  width: 40%;
+}
+
+.Heading {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 0.5;
+  padding-left: 5%;
+  padding-top: 1%;
 }
 
 .head-btn {
@@ -278,10 +302,11 @@ h3 {
 
   /* Experience */
   .flip-card {
+    padding-left: 4%;
     align-items: center;
     background-color: transparent;
-    width: 800px;
-    height: 420px;
+    width:800px;
+    height: 450px;
   }
 
   /* education */
@@ -333,5 +358,3 @@ h3 {
   #footer {
     padding: 3%;
   }
-
-  
