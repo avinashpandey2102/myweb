@@ -140,10 +140,14 @@ h3 {
 }
 
 .flip-card-front {
+  padding-top: 10%;
   text-align: left;
-  background-color: #bbb;
+  background-color: #3282b8;
+  line-height: 45px;
   color: black;
   border-radius: 14px;
+  font-size: 500%;
+  font-weight: bold;
 }
 
 .flip-card-back {
@@ -248,10 +252,6 @@ h3 {
   padding-bottom: 2%;
 }
 
-#experience, #education, #aboutme {
-  font-size: 130%;
-}
-
 /* Head */
 #title {
   padding-bottom: 2%;
@@ -275,7 +275,7 @@ h3 {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1rem;
-  line-height: 0.5;
+  line-height: 0.5px;
   padding-left: 5%;
   padding-top: 1%;
 }
@@ -290,7 +290,7 @@ h3 {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1rem;
-  line-height: 0.5;
+  line-height: 0.5px;
   padding-left: 10%;
   padding-top: 1%;
 }
@@ -302,11 +302,21 @@ h3 {
 
   /* Experience */
   .flip-card {
-    padding-left: 4%;
     align-items: center;
+    padding-left: 4%;
     background-color: transparent;
     width:800px;
     height: 450px;
+  }
+  .flip-card-front {
+    padding-top: 20%;
+    text-align: left;
+    line-height: 25px;
+    background-color: #3282b8;
+    color: black;
+    border-radius: 14px;
+    font-size: 500%;
+    font-weight: bold;
   }
 
   /* education */
@@ -357,4 +367,5 @@ h3 {
   /* Footer */
   #footer {
     padding: 3% 5% 2% 6%;
+
   }
