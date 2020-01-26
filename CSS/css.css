@@ -19,7 +19,6 @@ body {
 }
 
 .title-image {
-
   padding-left: 25%;
   padding-right: 20%;
 }
@@ -79,7 +78,6 @@ h3 {
 /* Skills */
 #skills {
   background-image: radial-gradient(#0b131d, #0b131d, #000000);
-
   margin: 0 2%;
   border-radius: 14px;
   padding: 1% 5%;
@@ -110,13 +108,18 @@ h3 {
   margin: 0 1% 1% 2%;
   font-family: "Montserrat";
 }
-.experience-head{
-  margin:  7% 2%;
+.flip-card-fas{
+  margin-left: 100%;
+  color: #000000;
 }
+.experience-head {
+  margin: 2% 2%;
+}
+
 .flip-card {
   background-color: transparent;
   width: 570px;
-  height: 350px;
+  height: 380px;
   perspective: 1020px;
   border-radius: 14px;
   padding-bottom: 1%
@@ -146,7 +149,6 @@ h3 {
 }
 
 .flip-card-front {
-
   padding-top: 10%;
   text-align: left;
   background-color: #3282b8;
@@ -194,7 +196,7 @@ h3 {
   height: 10px;
   border-style: none;
   border-color: #fff;
-  border-top-style:dashed;
+  border-top-style: dashed;
 }
 
 .arrow-up, .arrow-down {
@@ -219,9 +221,11 @@ h3 {
   text-align: center;
   padding: 5%;
 }
-.aboutme-para{
+
+.aboutme-para {
   padding-top: 5%
 }
+
 .chip-col {
   padding: 5px 15px 35px 25px;
   align-content: center;
@@ -253,67 +257,71 @@ h3 {
 }
 
 @media screen and (max-width: 1020px) {
-#experience, #education, #aboutme {
-  font-size: 130%;
-}
+  #experience, #education, #aboutme {
+    font-size: 130%;
+  }
 
+  /* Head */
+  #title {
+    padding-bottom: 0%;
+  }
 
+  .title-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 2%;
+  }
 
-/* Head */
-#title {
-  padding-bottom: 0%;
-}
+  .head-btn {
+    margin: 1px 2px;
+    width: 40%;
+    font-size: 1rem;
+  }
 
-.title-image {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  padding-left: 10%;
-  padding-right: 2%;
-}
+  .head-buttons {
+    padding-bottom: 3%;
+    padding-left: 10%;
+  }
 
-.head-btn {
-  margin: 1px;
-  padding: 1%;
-  width: 40%;
-}
-.head-buttons{
-  padding-bottom: 3%;
-}
-.Heading {
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 0.5px;
-  padding-left: 5%;
-  padding-top: 1%;
-}
+  .Heading {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 0.5px;
+    padding-left: 5%;
+    padding-top: 1%;
+    width: 100%
+  }
 
-.Heading {
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 0.5px;
-  padding-left: 10%;
-  padding-top: 1%;
-}
+  .heading-text1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #142CE2;
+  }
+  .heading-text3{
+    font-size: 2rem;
+  }
 
-  .feature-box {
+   .feature-box {
     padding: 2%;
     margin: 0%
   }
 
   /* Experience */
-  .experience-head{
-    margin:  7% 2%;
+  .experience-head {
+    margin: 7% 2%;
   }
+
   .flip-card {
     align-items: center;
     padding-left: 4%;
     background-color: transparent;
-    width:800px;
+    width: 800px;
     height: 450px;
   }
+
   .flip-card-front {
     padding-top: 20%;
     text-align: left;
@@ -373,5 +381,4 @@ h3 {
   /* Footer */
   #footer {
     padding: 3% 5% 2% 6%;
-
   }
